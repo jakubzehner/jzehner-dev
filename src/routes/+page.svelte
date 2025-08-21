@@ -1,5 +1,10 @@
-<p class="dark:text-white">
-	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, dolorem vero ratione odit mollitia
-	magnam doloribus explicabo nulla esse dolorum consequatur iusto asperiores quam excepturi facere a
-	libero sequi fugiat!
-</p>
+<div class="flex flex-col pb-12 text-center">
+	<span class="text-2xl font-bold">Jakub Zehner</span>
+	<span class="text-sm">software engineer</span>
+
+	<div class="flex flex-col gap-1 pt-3 underline">
+		<a href="https://github.com/jakubzehner">github.com/jakubzehner</a>
+		<a href="https://www.linkedin.com/in/jakub-zehner">in/jakub-zehner</a>
+		<a href="mailto:jakub.zehner.pl@gmail.com">jakub.zehner.pl@gmail.com</a>
+	</div>
+</div>
