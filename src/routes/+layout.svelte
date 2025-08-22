@@ -32,7 +32,7 @@
 			</NavigationMenu.List>
 		</NavigationMenu.Root>
 	</div>
-	<div class="flex flex-1 items-center justify-center">
+	<div class="flex min-h-0 flex-1">
 		{@render children?.()}
 	</div>
 </div>
