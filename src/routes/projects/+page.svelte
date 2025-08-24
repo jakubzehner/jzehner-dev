@@ -3,6 +3,10 @@
 	import { projects } from '$lib/components/projects';
 </script>
 
+<svelte:head>
+	<title>Projects – Jakub Zehner</title>
+</svelte:head>
+
 <ScrollArea class="h-full max-h-full w-full">
 	<div class="flex justify-center">
 		<div class="w-fit max-w-2xl space-y-4 p-4">
