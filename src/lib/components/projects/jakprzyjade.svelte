@@ -68,7 +68,7 @@
 			Tools
 			<div class="flex flex-wrap gap-1 p-1">
 				<Badge variant="secondary"><SiUml /> UML</Badge>
-				<Badge variant="secondary"><SiOpenapiinitiative /> OpenAPI Initiative</Badge>
+				<Badge variant="secondary"><SiOpenapiinitiative /> OpenAPI</Badge>
 				<Badge variant="secondary"><SiFigma /> Figma</Badge>
 				<Badge variant="secondary"><SiGithub /> GitHub</Badge>
 				<Badge variant="secondary"><SiGithubactions /> GitHub Actions</Badge>

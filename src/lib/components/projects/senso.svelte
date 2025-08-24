@@ -62,7 +62,7 @@
 				<Badge variant="secondary"><SiDocker /> Docker</Badge>
 				<Badge variant="secondary"><SiLatex /> LaTeX</Badge>
 				<Badge variant="secondary"><SiUml /> UML</Badge>
-				<Badge variant="secondary"><SiOpenapiinitiative /> OpenAPI Initiative</Badge>
+				<Badge variant="secondary"><SiOpenapiinitiative /> OpenAPI</Badge>
 				<Badge variant="secondary"><SiFigma /> Figma</Badge>
 				<Badge variant="secondary"><SiGithub /> GitHub</Badge>
 				<Badge variant="secondary"><SiGithubactions /> GitHub Actions</Badge>
@@ -72,9 +72,6 @@
 	</Card.Content>
 	<Card.Footer>
 		<div class="flex flex-wrap gap-1 p-1">
-			<Button target="_blank" rel="noopener noreferrer" href="/senso.pdf"
-				><SiGoogledocs /> Documentation (PL)</Button
-			>
 			<Button
 				target="_blank"
 				rel="noopener noreferrer"
@@ -85,6 +82,9 @@
 				rel="noopener noreferrer"
 				href="https://github.com/zpi-2023/senso-frontend"
 				><SiGithub /> Repository - Mobile app</Button
+			>
+			<Button target="_blank" rel="noopener noreferrer" href="/senso.pdf"
+				><SiGoogledocs /> Documentation (PL)</Button
 			>
 		</div>
 	</Card.Footer>

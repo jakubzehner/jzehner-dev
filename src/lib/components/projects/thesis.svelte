@@ -54,13 +54,13 @@
 	</Card.Content>
 	<Card.Footer>
 		<div class="flex flex-wrap gap-1 p-1">
-			<Button target="_blank" rel="noopener noreferrer" href="/masterthesis.pdf"
-				><SiGoogledocs /> Thesis (EN)</Button
-			>
 			<Button
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://github.com/jakubzehner/MasterThesis"><SiGithub /> Repository</Button
+			>
+			<Button target="_blank" rel="noopener noreferrer" href="/masterthesis.pdf"
+				><SiGoogledocs /> Thesis (EN)</Button
 			>
 		</div>
 	</Card.Footer>
