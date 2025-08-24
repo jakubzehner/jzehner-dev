@@ -83,7 +83,7 @@
 				href="https://github.com/zpi-2023/senso-frontend"
 				><SiGithub /> Repository - Mobile app</Button
 			>
-			<Button target="_blank" rel="noopener noreferrer" href="/senso.pdf"
+			<Button target="_blank" rel="noopener noreferrer" href="/static/senso.pdf"
 				><SiGoogledocs /> Documentation (PL)</Button
 			>
 		</div>

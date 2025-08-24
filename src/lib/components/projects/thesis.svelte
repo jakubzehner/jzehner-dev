@@ -59,7 +59,7 @@
 				rel="noopener noreferrer"
 				href="https://github.com/jakubzehner/MasterThesis"><SiGithub /> Repository</Button
 			>
-			<Button target="_blank" rel="noopener noreferrer" href="/masterthesis.pdf"
+			<Button target="_blank" rel="noopener noreferrer" href="/static/masterthesis.pdf"
 				><SiGoogledocs /> Thesis (EN)</Button
 			>
 		</div>
