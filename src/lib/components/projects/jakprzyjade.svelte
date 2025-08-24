@@ -77,20 +77,28 @@
 	</Card.Content>
 	<Card.Footer>
 		<div class="flex flex-wrap gap-1 p-1">
-			<Button href="https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign"
-				><SiGithub /> Repository</Button
+			<Button
+				target="_blank"
+				rel="noopener noreferrer"
+				href="https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign"><SiGithub /> Repository</Button
 			>
 			<Button
+				target="_blank"
+				rel="noopener noreferrer"
 				href="https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e1/README.md"
-				><SiGoogledocs /> Business modeling, specification, and requirements analysis</Button
+				><SiGoogledocs /> Business modeling, specification, and requirements analysis (PL)</Button
 			>
 			<Button
+				target="_blank"
+				rel="noopener noreferrer"
 				href="https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e2/README.md"
-				><SiGoogledocs /> Definition of system architecture</Button
+				><SiGoogledocs /> Definition of system architecture (PL)</Button
 			>
 			<Button
+				target="_blank"
+				rel="noopener noreferrer"
 				href="https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e3/README.md"
-				><SiGoogledocs /> Implementation report</Button
+				><SiGoogledocs /> Implementation report (PL)</Button
 			>
 		</div>
 	</Card.Footer>
