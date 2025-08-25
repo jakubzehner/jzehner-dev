@@ -78,27 +78,33 @@
 	<Card.Footer>
 		<div class="flex flex-wrap gap-1 p-1">
 			<Button
+				class=" min-h-fit max-w-full min-w-0 text-left break-words !whitespace-normal"
 				target="_blank"
 				rel="noopener noreferrer"
-				href="https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign"><SiGithub /> Repository</Button
+				href="https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign"
+				><SiGithub /> <span>Repository</span></Button
 			>
 			<Button
+				class="min-h-fit max-w-full min-w-0 text-left break-words !whitespace-normal "
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e1/README.md"
-				><SiGoogledocs /> Business modeling, specification, and requirements analysis (PL)</Button
+				><SiGoogledocs />
+				<span>Business modeling, specification, requirements analysis (PL)</span></Button
 			>
 			<Button
+				class="min-h-fit max-w-full min-w-0 text-left break-words !whitespace-normal"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e2/README.md"
-				><SiGoogledocs /> Definition of system architecture (PL)</Button
+				><SiGoogledocs /> <span>Definition of system architecture (PL)</span></Button
 			>
 			<Button
+				class="min-h-fit max-w-full min-w-0 text-left break-words !whitespace-normal"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e3/README.md"
-				><SiGoogledocs /> Implementation report (PL)</Button
+				><SiGoogledocs /> <span>Implementation report (PL)</span></Button
 			>
 		</div>
 	</Card.Footer>

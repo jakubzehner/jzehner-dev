@@ -4,7 +4,6 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import {
 		SiGithub,
-		SiGithubpages,
 		SiTypescript,
 		SiRust,
 		SiWebassembly,
@@ -12,7 +11,8 @@
 		SiLodash,
 		SiReactivex,
 		SiCss,
-		SiGithubactions
+		SiGithubactions,
+		SiGooglecloud
 	} from '@icons-pack/svelte-simple-icons';
 </script>
 
@@ -52,7 +52,7 @@
 			<Button
 				target="_blank"
 				rel="noopener noreferrer"
-				href="https://pwr-acs-se-24.github.io/EoSaKAfDaD/#/"><SiGithubpages /> Live demo</Button
+				href="https://pwr-acs-se-24.github.io/EoSaKAfDaD/#/"><SiGooglecloud /> Live demo</Button
 			>
 		</div>
 	</Card.Footer>
