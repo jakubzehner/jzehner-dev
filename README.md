@@ -1,38 +1,32 @@
-# sv
+# [jzehner.dev](https://jzehner.dev) – a minimalistic personal website 🏠
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<div align="center">
 
-## Creating a project
+![SvelteKit](https://img.shields.io/badge/SvelteKit-%23FF3E00?logo=svelte&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-%23FF3E00.svg?logo=svelte&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)
+![Shadcn-svelte](https://img.shields.io/badge/Shadcn%2D%2Dsvelte-%23000000.svg?logo=shadcnui&logoColor=white)
 
-If you're seeing this, you've probably already done this step. Congrats!
+</div>
 
-```sh
-# create a new project in the current directory
-npx sv create
+![Main page.](./docs/img/mainpage.png)
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Production 🌐
 
-## Developing
+The website is available online at [jzehner.dev](https://jzehner.dev), deployed through [Cloudflare](https://www.cloudflare.com/developer-platform/products/workers/).
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Development 🏗
 
-```sh
+Run the development server:
+
+```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+You can build the project and preview an optimized version using:
 
-To create a production version of your app:
-
-```sh
+```bash
 npm run build
+npm run preview
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
