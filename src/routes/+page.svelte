@@ -1,7 +1,3 @@
-<svelte:head>
-	<title>About – Jakub Zehner</title>
-</svelte:head>
-
 <div class="flex h-full w-full flex-col items-center justify-center pb-12 text-center">
 	<span class="text-2xl font-bold">Jakub Zehner</span>
 	<span class="text-sm">software engineer</span>

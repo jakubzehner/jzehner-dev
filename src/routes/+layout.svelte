@@ -5,7 +5,7 @@
 
 	let { children } = $props();
 
-	const siteTitle = 'Jakub Zehner - Software Engineer';
+	const siteTitle = 'Jakub Zehner';
 	const siteDescription = 'Personal website of Jakub Zehner, Software Engineer.';
 	const siteUrl = 'https://jzehner.dev';
 </script>
@@ -19,6 +19,8 @@
 		content="software engineer, jakub zehner, programming, portfolio, github, linkedin"
 	/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="canonical" href="https://www.jzehner.dev" />
 
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 	<link rel="icon" type="image/png" sizes="180x180" href="/favicon-180.png" />
