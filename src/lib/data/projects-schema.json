@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "technologies": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "category": {
+                  "type": "string"
+                },
+                "badges": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "Angular",
+                      "Css",
+                      "Figma",
+                      "React",
+                      "Reactnative",
+                      "Shadcnui",
+                      "Svelte",
+                      "Tailwindcss",
+                      "Dotnet",
+                      "Entityframework",
+                      "Express",
+                      "Fastapi",
+                      "Hono",
+                      "Mediatr",
+                      "Nestjs",
+                      "Spring",
+                      "Springboot",
+                      "CSharp",
+                      "Java",
+                      "Python",
+                      "Rust",
+                      "Typescript",
+                      "Lodash",
+                      "Reactivex",
+                      "Jest",
+                      "Junit5",
+                      "XUnitdotnet",
+                      "AWS",
+                      "Docker",
+                      "Github",
+                      "Githubactions",
+                      "GnuBash",
+                      "Kubernetes",
+                      "Terraform",
+                      "Elasticsearch",
+                      "Postgresql",
+                      "Diagramsdotnet",
+                      "Latex",
+                      "Openapiinitiative",
+                      "Uml",
+                      "Huggingface",
+                      "Matplotlib",
+                      "Numpy",
+                      "Pandas",
+                      "Pytorch",
+                      "Scikitlearn",
+                      "Vite",
+                      "Webassembly"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "category",
+                "badges"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "buttons": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "href": {
+                  "type": "string"
+                },
+                "icon": {
+                  "type": "string",
+                  "enum": [
+                    "Cloud",
+                    "Document",
+                    "Github"
+                  ]
+                }
+              },
+              "required": [
+                "label",
+                "href",
+                "icon"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "title",
+          "description",
+          "technologies",
+          "buttons"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "projects"
+  ],
+  "additionalProperties": true
+}
