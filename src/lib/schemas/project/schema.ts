@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { ProjectTechnologyBadgesEnum, ProjectLinkIconsEnum } from '$lib/enums/project/enums';
+import { ProjectTechnologyBadgesEnum, ProjectLinkIconsEnum } from '../../enums/project/enums';
 
 export const ProjectLinkIconsSchema = z.enum(ProjectLinkIconsEnum);
 export const ProjectTechnologyBadgesSchema = z.enum(ProjectTechnologyBadgesEnum);
