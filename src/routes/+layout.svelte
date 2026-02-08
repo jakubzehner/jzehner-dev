@@ -13,15 +13,6 @@
 		{ name: 'About', link: '/' },
 		{ name: 'Projects', link: '/projects' }
 	];
-
-	const personSchema = {
-		'@context': 'https://schema.org',
-		'@type': 'Person',
-		name: 'Jakub Zehner',
-		jobTitle: 'Software Engineer',
-		url: siteUrl,
-		sameAs: ['https://github.com/jakubzehner', 'https://www.linkedin.com/in/jakub-zehner']
-	};
 </script>
 
 <svelte:head>
@@ -57,7 +48,14 @@
 	<meta name="twitter:image" content={`${siteUrl}/og-image.png`} />
 
 	<script type="application/ld+json">
-  		{@html JSON.stringify(personSchema)}
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Jakub Zehner",
+			"jobTitle": "Software Engineer",
+			"url": "https://jzehner.dev",
+			"sameAs": ["https://github.com/jakubzehner", "https://www.linkedin.com/in/jakub-zehner"]
+		}
 	</script>
 </svelte:head>
 
@@ -65,7 +63,7 @@
 	<div class="flex justify-center">
 		<NavigationMenu.Root>
 			<NavigationMenu.List class="flex gap-x-12 p-6">
-				{#each navigationItems as item}
+				{#each navigationItems as item (item.link)}
 					<NavigationMenu.Item>
 						<NavigationMenu.Link>
 							{#snippet child()}

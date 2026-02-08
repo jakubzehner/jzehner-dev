@@ -23,11 +23,11 @@
 	<Card.Content>
 		<p>{project.description}</p>
 
-		{#each project.technologies as tech}
+		{#each project.technologies as tech (tech.category)}
 			<div class="pt-3">
 				{tech.category}
 				<div class="flex flex-wrap gap-1 p-1">
-					{#each tech.badges as badge}
+					{#each tech.badges as badge (badge)}
 						{@const config = TECHNOLOGY_BADGE_MAP[badge]}
 						<Badge variant="secondary">
 							{#if config.icon}
@@ -43,7 +43,7 @@
 
 	<Card.Footer>
 		<div class="flex flex-wrap gap-1 p-1">
-			{#each project.buttons as button}
+			{#each project.buttons as button (button.href)}
 				{@const IconComponent = PROJECT_LINK_ICON_MAP[button.icon]}
 				<Button
 					class="min-h-fit max-w-full min-w-0 text-left break-words !whitespace-normal"
