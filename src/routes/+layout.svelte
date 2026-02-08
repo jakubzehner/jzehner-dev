@@ -8,6 +8,11 @@
 	const siteTitle = 'Jakub Zehner';
 	const siteDescription = 'Personal website of Jakub Zehner, Software Engineer.';
 	const siteUrl = 'https://jzehner.dev';
+
+	const navigationItems = [
+		{ name: 'About', link: '/' },
+		{ name: 'Projects', link: '/projects' }
+	];
 </script>
 
 <svelte:head>
@@ -63,20 +68,15 @@
 	<div class="flex justify-center">
 		<NavigationMenu.Root>
 			<NavigationMenu.List class="flex gap-x-12 p-6">
-				<NavigationMenu.Item>
-					<NavigationMenu.Link>
-						{#snippet child()}
-							<a href="/" class={navigationMenuTriggerStyle()}>About</a>
-						{/snippet}
-					</NavigationMenu.Link>
-				</NavigationMenu.Item>
-				<NavigationMenu.Item>
-					<NavigationMenu.Link>
-						{#snippet child()}
-							<a href="/projects" class={navigationMenuTriggerStyle()}>Projects</a>
-						{/snippet}
-					</NavigationMenu.Link>
-				</NavigationMenu.Item>
+				{#each navigationItems as item}
+					<NavigationMenu.Item>
+						<NavigationMenu.Link>
+							{#snippet child()}
+								<a href={item.link} class={navigationMenuTriggerStyle()}>{item.name}</a>
+							{/snippet}
+						</NavigationMenu.Link>
+					</NavigationMenu.Item>
+				{/each}
 			</NavigationMenu.List>
 		</NavigationMenu.Root>
 	</div>
