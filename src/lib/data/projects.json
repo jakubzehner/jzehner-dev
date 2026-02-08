@@ -1,237 +1,183 @@
 {
-    "$schema": "./projects-schema.json",
-    "projects": [
-        {
-            "title": "Master thesis",
-            "subtitle": "Learning code change representations via artificial intelligence code model",
-            "description": "My master's thesis focused on the problem of code change representation. The work presents a systematic review of existing research, a Python-based experimental framework, and a novel retrieval-augmented approach as an alternative to fine-tuning large models. The proposed methods demonstrated competitive performance while reducing computational cost.",
-            "technologies": [
-                {
-                    "category": "Package",
-                    "badges": [
-                        "Python",
-                        "Pytorch",
-                        "Pandas",
-                        "Scikitlearn",
-                        "Numpy",
-                        "Huggingface"
-                    ]
-                },
-                {
-                    "category": "Thesis",
-                    "badges": [
-                        "Latex",
-                        "Diagramsdotnet",
-                        "Matplotlib"
-                    ]
-                }
-            ],
-            "buttons": [
-                {
-                    "label": "Repository",
-                    "href": "https://github.com/jakubzehner/MasterThesis",
-                    "icon": "Github"
-                },
-                {
-                    "label": "Thesis (EN)",
-                    "href": "/static/masterthesis.pdf",
-                    "icon": "Document"
-                }
-            ]
-        },
-        {
-            "title": "JakPrzyjade",
-            "description": "A microservice-based public transit ticketing system. It consists of a set of services that handle various aspects of public transport ticketing, such as user accounts, ticket purchases, and payment processing. Designed and implemented for the Software System Design university course.",
-            "technologies": [
-                {
-                    "category": "Services",
-                    "badges": [
-                        "Java",
-                        "Typescript",
-                        "Spring",
-                        "Springboot",
-                        "Junit5",
-                        "Nestjs",
-                        "Hono",
-                        "Reactivex",
-                        "Express",
-                        "Jest"
-                    ]
-                },
-                {
-                    "category": "Deployment",
-                    "badges": [
-                        "Kubernetes",
-                        "Docker",
-                        "Terraform",
-                        "Postgresql",
-                        "AWS"
-                    ]
-                },
-                {
-                    "category": "Tools",
-                    "badges": [
-                        "Uml",
-                        "Openapiinitiative",
-                        "Figma",
-                        "Github",
-                        "Githubactions"
-                    ]
-                }
-            ],
-            "buttons": [
-                {
-                    "label": "Repository",
-                    "href": "https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign",
-                    "icon": "Github"
-                },
-                {
-                    "label": "Business modeling, specification, requirements analysis (PL)",
-                    "href": "https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e1/README.md",
-                    "icon": "Document"
-                },
-                {
-                    "label": "Definition of system architecture (PL)",
-                    "href": "https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e2/README.md",
-                    "icon": "Document"
-                },
-                {
-                    "label": "Implementation report (PL)",
-                    "href": "https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e3/README.md",
-                    "icon": "Document"
-                }
-            ]
-        },
-        {
-            "title": "Senso",
-            "description": "A group project built for my engineering thesis. A mobile application that aids the elderly in their daily life, including features such as medication reminders, emergency contacts, and an SOS button.",
-            "technologies": [
-                {
-                    "category": "Server",
-                    "badges": [
-                        "CSharp",
-                        "Dotnet",
-                        "Postgresql",
-                        "Entityframework",
-                        "Mediatr",
-                        "XUnitdotnet"
-                    ]
-                },
-                {
-                    "category": "Mobile app",
-                    "badges": [
-                        "Typescript",
-                        "Reactnative",
-                        "React",
-                        "Jest",
-                        "Css"
-                    ]
-                },
-                {
-                    "category": "Tools",
-                    "badges": [
-                        "Docker",
-                        "Latex",
-                        "Uml",
-                        "Openapiinitiative",
-                        "Figma",
-                        "Github",
-                        "Githubactions",
-                        "GnuBash"
-                    ]
-                }
-            ],
-            "buttons": [
-                {
-                    "label": "Repository - Server",
-                    "href": "https://github.com/zpi-2023/SensoBackend",
-                    "icon": "Github"
-                },
-                {
-                    "label": "Repository - Mobile app",
-                    "href": "https://github.com/zpi-2023/senso-frontend",
-                    "icon": "Github"
-                },
-                {
-                    "label": "Documentation (PL)",
-                    "href": "/static/senso.pdf",
-                    "icon": "Document"
-                }
-            ]
-        },
-        {
-            "title": "Image Steganography",
-            "description": "An online web application was created that allows users to hide messages in images using techniques such as LSB, DCT, and visual cryptography. Designed and implemented for the Engineering of Security and Knowledge Acquisition from Data and Databases university course.",
-            "technologies": [
-                {
-                    "category": "Web app",
-                    "badges": [
-                        "Typescript",
-                        "Rust",
-                        "Webassembly",
-                        "Angular",
-                        "Githubactions",
-                        "Reactivex",
-                        "Lodash",
-                        "Css"
-                    ]
-                }
-            ],
-            "buttons": [
-                {
-                    "label": "Repository",
-                    "href": "https://github.com/PWR-ACS-SE-24/EoSaKAfDaD",
-                    "icon": "Github"
-                },
-                {
-                    "label": "Live demo",
-                    "href": "https://pwr-acs-se-24.github.io/EoSaKAfDaD/#/",
-                    "icon": "Cloud"
-                }
-            ]
-        },
-        {
-            "title": "ArXiv search",
-            "description": "A web application that allows users to search for academic papers on arXiv.org. It offers features such as advanced search filters, faceted search and user-friendly navigation. Designed and implemented for the Information Retrieval Systems university course.",
-            "technologies": [
-                {
-                    "category": "Backend",
-                    "badges": [
-                        "Python",
-                        "Elasticsearch",
-                        "Postgresql",
-                        "Fastapi"
-                    ]
-                },
-                {
-                    "category": "Frontend",
-                    "badges": [
-                        "Typescript",
-                        "Svelte",
-                        "Vite",
-                        "Tailwindcss",
-                        "Shadcnui"
-                    ]
-                },
-                {
-                    "category": "Tools",
-                    "badges": [
-                        "Docker",
-                        "Latex",
-                        "Uml",
-                        "Openapiinitiative",
-                        "Figma",
-                        "Github"
-                    ]
-                }
-            ],
-            "buttons": [
-                {
-                    "label": "Repository",
-                    "href": "https://github.com/PWR-ACS-SE-24/InformationRetrievalSystems",
-                    "icon": "Github"
-                }
-            ]
-        }
-    ]
+	"$schema": "./projects-schema.json",
+	"projects": [
+		{
+			"title": "Master thesis",
+			"subtitle": "Learning code change representations via artificial intelligence code model",
+			"description": "My master's thesis focused on the problem of code change representation. The work presents a systematic review of existing research, a Python-based experimental framework, and a novel retrieval-augmented approach as an alternative to fine-tuning large models. The proposed methods demonstrated competitive performance while reducing computational cost.",
+			"technologies": [
+				{
+					"category": "Package",
+					"badges": ["Python", "Pytorch", "Pandas", "Scikitlearn", "Numpy", "Huggingface"]
+				},
+				{
+					"category": "Thesis",
+					"badges": ["Latex", "Diagramsdotnet", "Matplotlib"]
+				}
+			],
+			"buttons": [
+				{
+					"label": "Repository",
+					"href": "https://github.com/jakubzehner/MasterThesis",
+					"icon": "Github"
+				},
+				{
+					"label": "Thesis (EN)",
+					"href": "/static/masterthesis.pdf",
+					"icon": "Document"
+				}
+			]
+		},
+		{
+			"title": "JakPrzyjade",
+			"description": "A microservice-based public transit ticketing system. It consists of a set of services that handle various aspects of public transport ticketing, such as user accounts, ticket purchases, and payment processing. Designed and implemented for the Software System Design university course.",
+			"technologies": [
+				{
+					"category": "Services",
+					"badges": [
+						"Java",
+						"Typescript",
+						"Spring",
+						"Springboot",
+						"Junit5",
+						"Nestjs",
+						"Hono",
+						"Reactivex",
+						"Express",
+						"Jest"
+					]
+				},
+				{
+					"category": "Deployment",
+					"badges": ["Kubernetes", "Docker", "Terraform", "Postgresql", "AWS"]
+				},
+				{
+					"category": "Tools",
+					"badges": ["Uml", "Openapiinitiative", "Figma", "Github", "Githubactions"]
+				}
+			],
+			"buttons": [
+				{
+					"label": "Repository",
+					"href": "https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign",
+					"icon": "Github"
+				},
+				{
+					"label": "Business modeling, specification, requirements analysis (PL)",
+					"href": "https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e1/README.md",
+					"icon": "Document"
+				},
+				{
+					"label": "Definition of system architecture (PL)",
+					"href": "https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e2/README.md",
+					"icon": "Document"
+				},
+				{
+					"label": "Implementation report (PL)",
+					"href": "https://github.com/PWR-ACS-SE-24/SoftwareSystemDesign/tree/main/documentation/course/e3/README.md",
+					"icon": "Document"
+				}
+			]
+		},
+		{
+			"title": "Senso",
+			"description": "A group project built for my engineering thesis. A mobile application that aids the elderly in their daily life, including features such as medication reminders, emergency contacts, and an SOS button.",
+			"technologies": [
+				{
+					"category": "Server",
+					"badges": ["CSharp", "Dotnet", "Postgresql", "Entityframework", "Mediatr", "XUnitdotnet"]
+				},
+				{
+					"category": "Mobile app",
+					"badges": ["Typescript", "Reactnative", "React", "Jest", "Css"]
+				},
+				{
+					"category": "Tools",
+					"badges": [
+						"Docker",
+						"Latex",
+						"Uml",
+						"Openapiinitiative",
+						"Figma",
+						"Github",
+						"Githubactions",
+						"GnuBash"
+					]
+				}
+			],
+			"buttons": [
+				{
+					"label": "Repository - Server",
+					"href": "https://github.com/zpi-2023/SensoBackend",
+					"icon": "Github"
+				},
+				{
+					"label": "Repository - Mobile app",
+					"href": "https://github.com/zpi-2023/senso-frontend",
+					"icon": "Github"
+				},
+				{
+					"label": "Documentation (PL)",
+					"href": "/static/senso.pdf",
+					"icon": "Document"
+				}
+			]
+		},
+		{
+			"title": "Image Steganography",
+			"description": "An online web application was created that allows users to hide messages in images using techniques such as LSB, DCT, and visual cryptography. Designed and implemented for the Engineering of Security and Knowledge Acquisition from Data and Databases university course.",
+			"technologies": [
+				{
+					"category": "Web app",
+					"badges": [
+						"Typescript",
+						"Rust",
+						"Webassembly",
+						"Angular",
+						"Githubactions",
+						"Reactivex",
+						"Lodash",
+						"Css"
+					]
+				}
+			],
+			"buttons": [
+				{
+					"label": "Repository",
+					"href": "https://github.com/PWR-ACS-SE-24/EoSaKAfDaD",
+					"icon": "Github"
+				},
+				{
+					"label": "Live demo",
+					"href": "https://pwr-acs-se-24.github.io/EoSaKAfDaD/#/",
+					"icon": "Cloud"
+				}
+			]
+		},
+		{
+			"title": "ArXiv search",
+			"description": "A web application that allows users to search for academic papers on arXiv.org. It offers features such as advanced search filters, faceted search and user-friendly navigation. Designed and implemented for the Information Retrieval Systems university course.",
+			"technologies": [
+				{
+					"category": "Backend",
+					"badges": ["Python", "Elasticsearch", "Postgresql", "Fastapi"]
+				},
+				{
+					"category": "Frontend",
+					"badges": ["Typescript", "Svelte", "Vite", "Tailwindcss", "Shadcnui"]
+				},
+				{
+					"category": "Tools",
+					"badges": ["Docker", "Latex", "Uml", "Openapiinitiative", "Figma", "Github"]
+				}
+			],
+			"buttons": [
+				{
+					"label": "Repository",
+					"href": "https://github.com/PWR-ACS-SE-24/InformationRetrievalSystems",
+					"icon": "Github"
+				}
+			]
+		}
+	]
 }

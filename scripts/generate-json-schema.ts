@@ -9,9 +9,9 @@ const __dirname = dirname(__filename);
 const jsonSchema = ProjectsSchema.toJSONSchema();
 
 const output = {
-    $schema: 'http://json-schema.org/draft-07/schema#',
-    ...jsonSchema,
-    additionalProperties: true,
+	$schema: 'http://json-schema.org/draft-07/schema#',
+	...jsonSchema,
+	additionalProperties: true
 };
 
 const outputPath = join(__dirname, '../src/lib/data/projects-schema.json');
