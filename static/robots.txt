@@ -1,3 +1,1 @@
-# allow crawling everything by default
-User-agent: *
-Disallow:
+# It's empty here because the file is managed by Cloudflare.
