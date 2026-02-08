@@ -13,6 +13,15 @@
 		{ name: 'About', link: '/' },
 		{ name: 'Projects', link: '/projects' }
 	];
+
+	const personSchema = {
+		'@context': 'https://schema.org',
+		'@type': 'Person',
+		name: 'Jakub Zehner',
+		jobTitle: 'Software Engineer',
+		url: siteUrl,
+		sameAs: ['https://github.com/jakubzehner', 'https://www.linkedin.com/in/jakub-zehner']
+	};
 </script>
 
 <svelte:head>
@@ -48,19 +57,7 @@
 	<meta name="twitter:image" content={`${siteUrl}/og-image.png`} />
 
 	<script type="application/ld+json">
-	{`
-		{
-		"@context": "https://schema.org",
-		"@type": "Person",
-		"name": "Jakub Zehner",
-		"jobTitle": "Software Engineer",
-		"url": "${siteUrl}",
-		"sameAs": [
-			"https://github.com/jakubzehner",
-			"https://www.linkedin.com/in/jakub-zehner"
-		]
-		}
-	`}
+  		{@html JSON.stringify(personSchema)}
 	</script>
 </svelte:head>
 
