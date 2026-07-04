@@ -1,0 +1,115 @@
+{
+	"$schema": "./profile-schema.json",
+	"profile": {
+		"name": "Jakub Zehner",
+		"role": "fullstack .NET/React developer",
+		"location": "Poland",
+		"email": "jakub.zehner.pl@gmail.com",
+		"github": "https://github.com/jakubzehner",
+		"linkedin": "https://www.linkedin.com/in/jakub-zehner",
+		"intro": "I build web applications end to end — currently with .NET and React — working across practically every stage of development, from data models and backend services to polished, user-facing frontends. My background also spans Spring, C++ and Python, including machine learning research at the intersection of AI and software engineering. I care about clean architecture, strong typing, and the small details that make software feel solid."
+	},
+	"experience": [
+		{
+			"role": "Fullstack .NET/React Developer",
+			"company": "Invest IT",
+			"companyUrl": "https://appmedica.pl",
+			"period": "2025 — now",
+			"location": "remote",
+			"summary": "Working on Appmedica — a platform that helps hospitals and clinics manage medical equipment and infrastructure. Involved end to end, across practically every stage of development: from the data model and .NET backend services to the React frontend."
+		},
+		{
+			"role": "C++ Software Engineer",
+			"company": "Nokia",
+			"companyUrl": "https://www.nokia.com",
+			"period": "2022 — 2023",
+			"location": "working student",
+			"summary": "Maintained and developed software managing Base Transceiver Stations (BTS) in global telecommunications networks, using C++, Protobuf and Boost. Implemented new features, investigated issues and fixed defects in a reliability-critical system, with unit and integration tests and established CI/CD pipelines."
+		},
+		{
+			"role": "Fullstack JavaScript/React Developer",
+			"company": "Nokia",
+			"companyUrl": "https://www.nokia.com",
+			"period": "2022",
+			"location": "internship",
+			"summary": "Developed an internal web tool supporting the work of multiple teams across the organization, built with React, Meteor.js and MongoDB. Implemented new features, integrated APIs, refactored backend code and took part in code reviews — also as a reviewer."
+		}
+	],
+	"education": [
+		{
+			"degree": "MSc",
+			"field": "Applied Computer Science (Software Engineering)",
+			"school": "Wrocław University of Science and Technology",
+			"period": "2024 — 2025",
+			"grade": "final grade 5.0 (very good)",
+			"thesis": {
+				"label": "Learning code change representations via artificial intelligence code model",
+				"href": "/static/masterthesis.pdf"
+			},
+			"highlights": [
+				{
+					"label": "Thesis awarded a distinction in the 42nd National Master’s Thesis Competition of the Polish Information Processing Society (PTI)",
+					"href": "https://kpm.pti.org.pl/archive/files/results/82"
+				},
+				{
+					"label": "Co-authored a scientific paper on optimizing code review with AI, submitted to a peer-reviewed journal"
+				},
+				{
+					"label": "Rector’s Scholarship for top-performing students, awarded throughout the studies (2024 — 2025)"
+				}
+			]
+		},
+		{
+			"degree": "BSc (Eng.)",
+			"field": "Applied Computer Science",
+			"school": "Wrocław University of Science and Technology",
+			"period": "2020 — 2024",
+			"grade": "final grade 5.5 (excellent)",
+			"thesis": {
+				"label": "Senso — a mobile application supporting elderly people in daily life",
+				"href": "/static/senso.pdf"
+			},
+			"highlights": [
+				{
+					"label": "Rector’s Scholarship for top-performing students, awarded throughout the studies (2021 — 2024)"
+				},
+				{
+					"label": "The thesis documents Senso, a team-built engineering project — see the full project for its repositories and tech stack",
+					"href": "/projects#senso"
+				}
+			]
+		}
+	],
+	"stack": [
+		{
+			"category": "Languages",
+			"badges": ["CSharp", "Typescript", "Java", "Python", "Cplusplus", "Rust"]
+		},
+		{
+			"category": "Frontend",
+			"badges": ["React", "Svelte", "Angular", "Reactnative", "Tailwindcss"]
+		},
+		{
+			"category": "Backend",
+			"badges": ["Dotnet", "Springboot", "Fastapi", "Nestjs", "Express"]
+		},
+		{
+			"category": "Data & Infra",
+			"badges": [
+				"Postgresql",
+				"Mongodb",
+				"Elasticsearch",
+				"Docker",
+				"Kubernetes",
+				"Terraform",
+				"Googlecloud",
+				"AWS",
+				"Githubactions"
+			]
+		},
+		{
+			"category": "AI & ML",
+			"badges": ["Pytorch", "Huggingface", "Scikitlearn", "Pandas", "Numpy"]
+		}
+	]
+}

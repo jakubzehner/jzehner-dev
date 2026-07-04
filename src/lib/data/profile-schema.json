@@ -1,0 +1,163 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"profile": {
+			"type": "object",
+			"properties": {
+				"name": { "type": "string" },
+				"role": { "type": "string" },
+				"location": { "type": "string" },
+				"email": {
+					"type": "string",
+					"format": "email",
+					"pattern": "^(?!\\.)(?!.*\\.\\.)([A-Za-z0-9_'+\\-\\.]*)[A-Za-z0-9_+-]@([A-Za-z0-9][A-Za-z0-9\\-]*\\.)+[A-Za-z]{2,}$"
+				},
+				"github": { "type": "string", "format": "uri" },
+				"linkedin": { "type": "string", "format": "uri" },
+				"intro": { "type": "string" }
+			},
+			"required": ["name", "role", "location", "email", "github", "linkedin", "intro"],
+			"additionalProperties": false
+		},
+		"experience": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"role": { "type": "string" },
+					"company": { "type": "string" },
+					"companyUrl": { "type": "string", "format": "uri" },
+					"period": { "type": "string" },
+					"location": { "type": "string" },
+					"summary": { "type": "string" }
+				},
+				"required": ["role", "company", "period", "location", "summary"],
+				"additionalProperties": false
+			}
+		},
+		"education": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"degree": { "type": "string" },
+					"field": { "type": "string" },
+					"school": { "type": "string" },
+					"period": { "type": "string" },
+					"grade": { "type": "string" },
+					"thesis": {
+						"type": "object",
+						"properties": { "label": { "type": "string" }, "href": { "type": "string" } },
+						"required": ["label", "href"],
+						"additionalProperties": false
+					},
+					"highlights": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": { "label": { "type": "string" }, "href": { "type": "string" } },
+							"required": ["label"],
+							"additionalProperties": false
+						}
+					}
+				},
+				"required": ["degree", "field", "school", "period"],
+				"additionalProperties": false
+			}
+		},
+		"stack": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"category": { "type": "string" },
+					"badges": {
+						"type": "array",
+						"items": {
+							"type": "string",
+							"enum": [
+								"Angular",
+								"Css",
+								"Figma",
+								"React",
+								"Reactnative",
+								"Shadcnui",
+								"Svelte",
+								"Sveltekit",
+								"Tailwindcss",
+								"Dotnet",
+								"Entityframework",
+								"Express",
+								"Fastapi",
+								"Hono",
+								"Mediatr",
+								"Nestjs",
+								"Spring",
+								"Springboot",
+								"Sqlmodel",
+								"C",
+								"CSharp",
+								"Cplusplus",
+								"Crystal",
+								"D",
+								"Dart",
+								"Fsharp",
+								"Gleam",
+								"Java",
+								"Javascript",
+								"Julia",
+								"Ocaml",
+								"Python",
+								"R",
+								"Reasonml",
+								"Ruby",
+								"Rust",
+								"Typescript",
+								"V",
+								"Visualbasic",
+								"Lodash",
+								"Reactivex",
+								"Zod",
+								"Jest",
+								"Junit5",
+								"XUnitdotnet",
+								"AWS",
+								"Cloudflare",
+								"Docker",
+								"Github",
+								"Githubactions",
+								"GnuBash",
+								"Googlecloud",
+								"Kubernetes",
+								"Ruff",
+								"Terraform",
+								"Uv",
+								"Elasticsearch",
+								"Mongodb",
+								"Postgresql",
+								"Diagramsdotnet",
+								"Latex",
+								"Openapiinitiative",
+								"Uml",
+								"Googlegemini",
+								"Huggingface",
+								"Matplotlib",
+								"Numpy",
+								"Pandas",
+								"Pytorch",
+								"Scikitlearn",
+								"Vite",
+								"Webassembly"
+							]
+						}
+					}
+				},
+				"required": ["category", "badges"],
+				"additionalProperties": false
+			}
+		}
+	},
+	"required": ["profile", "experience", "education", "stack"],
+	"additionalProperties": true
+}

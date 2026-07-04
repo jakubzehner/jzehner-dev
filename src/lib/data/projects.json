@@ -4,15 +4,27 @@
 		{
 			"title": "Master thesis",
 			"subtitle": "Learning code change representations via artificial intelligence code model",
+			"year": "2025",
 			"description": "My master's thesis focused on the problem of code change representation. The work presents a systematic review of existing research, a Python-based experimental framework, and a novel retrieval-augmented approach as an alternative to fine-tuning large models. The proposed methods demonstrated competitive performance while reducing computational cost.",
 			"technologies": [
 				{
 					"category": "Package",
-					"badges": ["Python", "Pytorch", "Pandas", "Scikitlearn", "Numpy", "Huggingface"]
+					"badges": [
+						"Python",
+						"Pytorch",
+						"Pandas",
+						"Scikitlearn",
+						"Numpy",
+						"Huggingface"
+					]
 				},
 				{
 					"category": "Thesis",
-					"badges": ["Latex", "Diagramsdotnet", "Matplotlib"]
+					"badges": [
+						"Latex",
+						"Diagramsdotnet",
+						"Matplotlib"
+					]
 				}
 			],
 			"buttons": [
@@ -30,7 +42,9 @@
 		},
 		{
 			"title": "JakPrzyjade",
-			"description": "A microservice-based public transit ticketing system. It consists of a set of services that handle various aspects of public transport ticketing, such as user accounts, ticket purchases, and payment processing. Designed and implemented for the Software System Design university course.",
+			"subtitle": "Microservice-based public transit ticketing system",
+			"year": "2024 — 2025",
+			"description": "A public transit ticketing system built as a set of cooperating microservices that handle user accounts, ticket purchases, and payment processing. Covers the full engineering cycle — from business modeling and requirements analysis, through architecture design, to implementation and deployment. Designed and implemented for the Software System Design university course.",
 			"technologies": [
 				{
 					"category": "Services",
@@ -49,11 +63,23 @@
 				},
 				{
 					"category": "Deployment",
-					"badges": ["Kubernetes", "Docker", "Terraform", "Postgresql", "AWS"]
+					"badges": [
+						"Kubernetes",
+						"Docker",
+						"Terraform",
+						"Postgresql",
+						"AWS"
+					]
 				},
 				{
 					"category": "Tools",
-					"badges": ["Uml", "Openapiinitiative", "Figma", "Github", "Githubactions"]
+					"badges": [
+						"Uml",
+						"Openapiinitiative",
+						"Figma",
+						"Github",
+						"Githubactions"
+					]
 				}
 			],
 			"buttons": [
@@ -80,52 +106,88 @@
 			]
 		},
 		{
-			"title": "Senso",
-			"description": "A group project built for my engineering thesis. A mobile application that aids the elderly in their daily life, including features such as medication reminders, emergency contacts, and an SOS button.",
+			"title": "Appmedica Challenge",
+			"subtitle": "AI-powered email attachment summarizer",
+			"year": "2025",
+			"description": "A fullstack recruitment project implemented as a fully containerized web application. It periodically fetches emails over IMAP, summarizes their attachments with an LLM, and presents the results in a public web interface. The entire cloud infrastructure is defined as code and deployed to Google Cloud with a focus on a clean, production-ready and maintainable solution.",
 			"technologies": [
 				{
-					"category": "Server",
-					"badges": ["CSharp", "Dotnet", "Postgresql", "Entityframework", "Mediatr", "XUnitdotnet"]
+					"category": "Backend",
+					"badges": [
+						"Python",
+						"Fastapi",
+						"Sqlmodel",
+						"Postgresql",
+						"Googlegemini",
+						"Uv",
+						"Ruff"
+					]
 				},
 				{
-					"category": "Mobile app",
-					"badges": ["Typescript", "Reactnative", "React", "Jest", "Css"]
+					"category": "Frontend",
+					"badges": [
+						"Typescript",
+						"React",
+						"Vite",
+						"Tailwindcss",
+						"Zod"
+					]
 				},
 				{
-					"category": "Tools",
+					"category": "Infrastructure",
 					"badges": [
 						"Docker",
-						"Latex",
-						"Uml",
-						"Openapiinitiative",
-						"Figma",
-						"Github",
-						"Githubactions",
+						"Terraform",
+						"Googlecloud",
 						"GnuBash"
 					]
 				}
 			],
 			"buttons": [
 				{
-					"label": "Repository - Server",
-					"href": "https://github.com/zpi-2023/SensoBackend",
+					"label": "Repository",
+					"href": "https://github.com/jakubzehner/AppmedicaChallenge",
 					"icon": "Github"
+				}
+			]
+		},
+		{
+			"title": "jzehner.dev",
+			"subtitle": "The website you are looking at right now",
+			"year": "2025 — now",
+			"description": "My personal corner of the internet — a statically prerendered portfolio built with SvelteKit and Tailwind CSS, deployed on Cloudflare Workers. All content is data-driven: profile and project entries live in JSON files validated with Zod schemas, which also generate JSON Schemas for editor autocompletion. Self-hosted fonts, semantic markup, and structured data for SEO round out the details.",
+			"technologies": [
+				{
+					"category": "Web app",
+					"badges": [
+						"Typescript",
+						"Sveltekit",
+						"Tailwindcss",
+						"Shadcnui",
+						"Zod",
+						"Vite"
+					]
 				},
 				{
-					"label": "Repository - Mobile app",
-					"href": "https://github.com/zpi-2023/senso-frontend",
-					"icon": "Github"
-				},
+					"category": "Deployment",
+					"badges": [
+						"Cloudflare"
+					]
+				}
+			],
+			"buttons": [
 				{
-					"label": "Documentation (PL)",
-					"href": "/static/senso.pdf",
-					"icon": "Document"
+					"label": "Repository",
+					"href": "https://github.com/jakubzehner/jzehner-dev",
+					"icon": "Github"
 				}
 			]
 		},
 		{
 			"title": "Image Steganography",
-			"description": "An online web application was created that allows users to hide messages in images using techniques such as LSB, DCT, and visual cryptography. Designed and implemented for the Engineering of Security and Knowledge Acquisition from Data and Databases university course.",
+			"subtitle": "Hiding messages in images, entirely in the browser",
+			"year": "2024 — 2025",
+			"description": "A web application that allows users to hide messages in images using techniques such as LSB, DCT, and visual cryptography. All image processing runs client-side, powered by Rust compiled to WebAssembly. Designed and implemented for the Engineering of Security and Knowledge Acquisition from Data and Databases university course.",
 			"technologies": [
 				{
 					"category": "Web app",
@@ -156,25 +218,172 @@
 		},
 		{
 			"title": "ArXiv search",
-			"description": "A web application that allows users to search for academic papers on arXiv.org. It offers features such as advanced search filters, faceted search and user-friendly navigation. Designed and implemented for the Information Retrieval Systems university course.",
+			"subtitle": "Full-text search over academic papers",
+			"year": "2025",
+			"description": "A web application for searching academic papers from arXiv.org, offering advanced search filters, faceted search, and user-friendly navigation on top of an Elasticsearch index. Designed and implemented for the Information Retrieval Systems university course.",
 			"technologies": [
 				{
 					"category": "Backend",
-					"badges": ["Python", "Elasticsearch", "Postgresql", "Fastapi"]
+					"badges": [
+						"Python",
+						"Elasticsearch",
+						"Postgresql",
+						"Fastapi"
+					]
 				},
 				{
 					"category": "Frontend",
-					"badges": ["Typescript", "Svelte", "Vite", "Tailwindcss", "Shadcnui"]
+					"badges": [
+						"Typescript",
+						"Svelte",
+						"Vite",
+						"Tailwindcss",
+						"Shadcnui"
+					]
 				},
 				{
 					"category": "Tools",
-					"badges": ["Docker", "Latex", "Uml", "Openapiinitiative", "Figma", "Github"]
+					"badges": [
+						"Docker",
+						"Latex",
+						"Uml",
+						"Openapiinitiative",
+						"Figma",
+						"Github"
+					]
 				}
 			],
 			"buttons": [
 				{
 					"label": "Repository",
 					"href": "https://github.com/PWR-ACS-SE-24/InformationRetrievalSystems",
+					"icon": "Github"
+				}
+			]
+		},
+		{
+			"title": "Senso",
+			"subtitle": "Mobile companion app for elderly people",
+			"year": "2023",
+			"description": "A group project built for my engineering thesis. A mobile application that aids the elderly in their daily life, including features such as medication reminders, emergency contacts, and an SOS button. Backed by a .NET server with a fully documented API.",
+			"technologies": [
+				{
+					"category": "Server",
+					"badges": [
+						"CSharp",
+						"Dotnet",
+						"Postgresql",
+						"Entityframework",
+						"Mediatr",
+						"XUnitdotnet"
+					]
+				},
+				{
+					"category": "Mobile app",
+					"badges": [
+						"Typescript",
+						"Reactnative",
+						"React",
+						"Jest",
+						"Css"
+					]
+				},
+				{
+					"category": "Tools",
+					"badges": [
+						"Docker",
+						"Latex",
+						"Uml",
+						"Openapiinitiative",
+						"Figma",
+						"Github",
+						"Githubactions",
+						"GnuBash"
+					]
+				}
+			],
+			"buttons": [
+				{
+					"label": "Repository — Server",
+					"href": "https://github.com/zpi-2023/SensoBackend",
+					"icon": "Github"
+				},
+				{
+					"label": "Repository — Mobile app",
+					"href": "https://github.com/zpi-2023/senso-frontend",
+					"icon": "Github"
+				},
+				{
+					"label": "Documentation (PL)",
+					"href": "/static/senso.pdf",
+					"icon": "Document"
+				}
+			]
+		},
+		{
+			"title": "AI & Knowledge Engineering",
+			"subtitle": "Classic AI algorithms, written in the V language",
+			"year": "2023",
+			"description": "Projects for the Artificial Intelligence and Knowledge Engineering university course, with two highlights. A route planner working on real Wrocław public transport data: shortest paths with Dijkstra and A* (using a Euclidean-distance heuristic) optimizing either travel time or the number of transfers, and shortest cycles with Tabu Search. And a Reversi engine built on Minimax with alpha-beta pruning, driven by eight heuristics — including one tuned with a genetic algorithm.",
+			"technologies": [
+				{
+					"category": "Language",
+					"badges": [
+						"V"
+					]
+				}
+			],
+			"buttons": [
+				{
+					"label": "Repository",
+					"href": "https://github.com/jakubzehner/ArtificialIntelligenceWUST",
+					"icon": "Github"
+				},
+				{
+					"label": "Route planner",
+					"href": "https://github.com/jakubzehner/ArtificialIntelligenceWUST/tree/main/Project1",
+					"icon": "Document"
+				},
+				{
+					"label": "Reversi engine",
+					"href": "https://github.com/jakubzehner/ArtificialIntelligenceWUST/tree/main/Project2",
+					"icon": "Document"
+				}
+			]
+		},
+		{
+			"title": "Advent of Code 2022",
+			"subtitle": "Every day in a different programming language",
+			"year": "2022",
+			"description": "My solutions to Advent of Code 2022, with a self-imposed twist: every day had to be solved in a language not used on any previous day. Seventeen days, seventeen languages — from Rust, TypeScript and F# through OCaml, Julia and Crystal to Gleam, ReasonML and V — with both puzzle parts completed each day. A fun exercise in picking up new syntax, tooling, and paradigms quickly.",
+			"technologies": [
+				{
+					"category": "Languages",
+					"badges": [
+						"Fsharp",
+						"C",
+						"Typescript",
+						"Rust",
+						"GnuBash",
+						"Ruby",
+						"Ocaml",
+						"D",
+						"R",
+						"Reasonml",
+						"Crystal",
+						"Dart",
+						"Visualbasic",
+						"Julia",
+						"Gleam",
+						"Javascript",
+						"V"
+					]
+				}
+			],
+			"buttons": [
+				{
+					"label": "Repository",
+					"href": "https://github.com/jakubzehner/AdventOfCode2022",
 					"icon": "Github"
 				}
 			]

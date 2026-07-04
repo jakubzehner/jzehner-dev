@@ -3,7 +3,7 @@
 	"main": "./.svelte-kit/cloudflare/_worker.js",
 	"compatibility_date": "2025-08-25",
 	"assets": {
-		"directory": "./static",
+		"directory": "./.svelte-kit/cloudflare",
 		"binding": "ASSETS"
 	}
 }

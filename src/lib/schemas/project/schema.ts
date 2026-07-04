@@ -18,6 +18,7 @@ export const ProjectTechnologySchema = z.object({
 export const ProjectSchema = z.object({
 	title: z.string(),
 	subtitle: z.string().optional(),
+	year: z.string().optional(),
 	description: z.string(),
 	technologies: z.array(ProjectTechnologySchema),
 	buttons: z.array(ProjectLinkSchema)

@@ -30,3 +30,15 @@ You can build the project and preview an optimized version using:
 npm run build
 npm run preview
 ```
+
+## OG image 🖼
+
+`static/og-image.png` (1200×630) is rendered from
+[`docs/og-image-template.html`](./docs/og-image-template.html) — after a design change, open the
+template in a browser (or screenshot it with a headless one) and replace the PNG.
+
+## Favicon 🖥
+
+`static/favicon.svg` is the source of truth — all PNG sizes and `favicon.ico` are rasterized from
+it (the 180×180 apple-touch-icon variant is full-bleed and opaque, since iOS applies its own
+corner mask).
